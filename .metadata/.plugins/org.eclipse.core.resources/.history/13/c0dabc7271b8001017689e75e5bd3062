@@ -1,0 +1,22 @@
+package inheritenc;
+
+import outer.Main;
+
+class A{
+	A(){
+		System.out.println("Class A constructor");
+	}
+	
+}
+public class B {
+B(){
+	System.out.println("Class B constructor");
+}
+	public static void main(String[] args)
+	{
+	new B();	
+	}
+	
+
+}
+}

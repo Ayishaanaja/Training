@@ -1,0 +1,14 @@
+package pack;
+
+public class SrtDemo {
+public static void main(String[] args) {
+	String str1="welcome";
+	String str2=new String("welcome");
+	System.out.println(str1==str2);
+	System.out.println(str1.equals(str2));
+	System.out.println(str1.concat("to Java"));
+	System.out.println(str1.charAt(6));//character at sixth index
+	System.out.println(str1.toUpperCase());
+	System.out.println(str1.length());
+}
+}

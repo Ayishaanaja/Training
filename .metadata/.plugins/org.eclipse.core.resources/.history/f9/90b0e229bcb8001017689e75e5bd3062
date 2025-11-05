@@ -1,0 +1,21 @@
+package inheritenc;
+
+public class Student1 implements Grade{
+
+	@Override
+	public void maths() {
+		System.out.println("passed in maths");
+	}
+
+	@Override
+	public void eng() {
+		System.out.println("passed in eng");	
+	}
+	public static void main(String[] args) {
+		Student1 s=new Student1();
+		s.maths();
+		s.eng();
+		System.out.println("total marks"+Grade.total);
+	}
+
+}

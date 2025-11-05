@@ -1,0 +1,22 @@
+package pack;
+
+import java.util.Scanner;
+
+public class HexOct {
+public static void main(String[] args) {
+	String hex="1B";
+	String hexval="0123456789ABCDEF";
+	for(int i=0;i<hex.length();i++)
+	{
+		char s=hex.charAt(i);
+		for(int k=0;k<hexval.length();i++)
+		{
+			if(s==hexval.charAt(k))
+				return k;	
+		}
+		
+	}
+	
+	}
+}
+

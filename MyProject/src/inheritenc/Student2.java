@@ -1,0 +1,15 @@
+package inheritenc;
+
+public class Student2 extends Student1 implements Grade {
+	public void maths(){
+		super.maths();
+		System.out.println("Student2 failed in maths");
+	}
+	public static void main(String[] args) {
+		Student2 s2=new Student2();
+		s2.maths();
+		s2.eng();
+		System.out.println("Total marks = "+Grade.total);
+	}
+
+}

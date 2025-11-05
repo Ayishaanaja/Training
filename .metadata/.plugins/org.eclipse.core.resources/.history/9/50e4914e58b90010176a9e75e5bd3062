@@ -1,0 +1,13 @@
+package com.ust.frs.bean;
+
+public class ReservationBean {
+	private String reservationID;
+    private String userID;
+    private String scheduleID;
+    private String reservationType;
+    private String bookingDate;
+    private String journeyDate;
+    private int noOfSeats;
+    private double totalFare;
+    private int bookingStatus;
+}

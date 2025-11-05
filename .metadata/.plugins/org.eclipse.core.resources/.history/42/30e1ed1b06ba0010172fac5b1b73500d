@@ -1,0 +1,9 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class Arrl {
+ArrayList al=new ArrayList();
+al.add("Mango");
+al.add(80);
+}

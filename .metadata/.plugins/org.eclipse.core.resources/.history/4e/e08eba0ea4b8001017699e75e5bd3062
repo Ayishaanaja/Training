@@ -1,0 +1,23 @@
+package inheritenc;
+
+public class Demo {
+public static void main(String[] args) {
+	Bird b=new Bird()
+			{
+
+				@Override
+				public void eat() {
+					System.out.println("eats insects");
+				}
+
+				@Override
+				public void fly() {
+				System.out.println("Flies fast");
+					
+				}
+		
+			};
+			d.eat();
+			d.fly();
+}
+}

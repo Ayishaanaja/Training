@@ -1,0 +1,8 @@
+package inheritenc;
+
+public class Ayisha {
+void read()
+{
+	System.out.println("Hiii guyssss....");
+}
+}

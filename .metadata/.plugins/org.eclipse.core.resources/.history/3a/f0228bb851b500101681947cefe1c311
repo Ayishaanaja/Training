@@ -1,0 +1,15 @@
+package pack;
+
+import java.util.Scanner;
+
+public class Loop4 {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter the number");
+	int i=sc.nextInt();
+	int sum=0;
+	for(int k=i;k>=0;k--)
+		sum+=k;
+	System.out.println("sum = "+sum);
+}
+}

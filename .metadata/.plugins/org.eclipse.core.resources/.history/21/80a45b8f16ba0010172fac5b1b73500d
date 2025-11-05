@@ -1,0 +1,31 @@
+package Collections;
+
+public class Collegedb {
+private int admno;
+private String name;
+private String dept;
+public int getAdmno() {
+	return admno;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public String getDept() {
+	return dept;
+}
+public void setDept(String dept) {
+	this.dept = dept;
+}
+public void setAdmno(int admno) {
+	this.admno = admno;
+}
+public Collegedb(int admno, String name, String dept) {
+	super();
+	this.admno = admno;
+	this.name = name;
+	this.dept = dept;
+}
+}

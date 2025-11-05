@@ -1,0 +1,49 @@
+package inheritenc;
+
+public class Hotel implements Vegfood,Nonvegfood 
+{
+	int total=0;
+	@Override
+	public void mandhi() {
+		// TODO Auto-generated method stub
+		int price=250;
+		System.out.println("Mandhi : "+price);
+		total+=price;
+	}
+
+	@Override
+	public void cb() {
+		int price=180;
+		System.out.println("Cb : "+price);
+		total+=price;
+	}
+
+	@Override
+	public void chickennoodles() {
+		int price=280;
+		System.out.println("Chicken noodles : "+price);
+		total+=price;
+	}
+
+	@Override
+	public void pulaav() {
+		int price=150;
+		System.out.println("Pulaav : "+price);
+		total+=price;
+	}
+
+	@Override
+	public void vegnoodles() {
+		int price=180;
+		System.out.println("Veg noodles : "+price);
+		total+=price;
+	}
+
+	@Override
+	public void sadhya() {
+		int price=250;
+		System.out.println("Sadhya : "+price);
+		total+=price;
+	}
+
+}

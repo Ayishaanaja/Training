@@ -1,0 +1,7 @@
+package Collections;
+
+public class Collegedb {
+private int admno;
+private String name;
+private String dept;
+}

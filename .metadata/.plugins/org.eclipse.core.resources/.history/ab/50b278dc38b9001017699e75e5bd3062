@@ -1,0 +1,36 @@
+package intterfa;
+
+public abstract class Car {
+final public void color()
+{
+	System.out.println("Blue color");
+}
+public static void brandname()
+{
+	System.out.println("Ambassdor");
+}
+public abstract void start();
+public abstract void increaseSpeed();
+public abstract void stop();
+}
+class driver extends Car
+{
+
+	@Override
+	public void start() {
+		System.out.println("grrrrrrrrrr");
+	}
+
+	@Override
+	public void increaseSpeed() {
+		System.out.println("100kmp");
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("apply break");
+	}
+	public static void main(String[] args) {
+		brandname();
+	}
+}

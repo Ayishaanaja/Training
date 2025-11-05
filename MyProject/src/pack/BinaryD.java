@@ -1,0 +1,20 @@
+package pack;
+
+import java.util.Scanner;
+
+public class BinaryD {
+public static void main(String[] args) {
+	int p=0,result=0;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter the number");
+	int num=sc.nextInt();
+	while(num>1) {
+		p++;
+		System.out.println(p);
+		result+=(num%10)*(Math.pow(2, p));
+		System.out.println(result);
+		num=num/10;
+	}
+	System.out.println(result);
+}
+}

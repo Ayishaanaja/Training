@@ -1,0 +1,14 @@
+package pack;
+
+public class cat {
+	
+@Override
+	public String toString() {
+		return "cat []";
+	}
+
+public static void main(String[] args) {
+	cat c=new cat();
+	System.out.println(c);
+}
+}

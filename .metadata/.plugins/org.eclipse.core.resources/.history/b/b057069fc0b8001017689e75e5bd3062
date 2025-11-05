@@ -1,0 +1,5 @@
+package inheritenc;
+
+public class Customer2 extends SBIBank{
+
+}

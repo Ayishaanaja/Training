@@ -1,0 +1,21 @@
+package pack;
+
+public class SrtDemo {
+	static void rev(String s)
+	{
+		String reve="";
+		for(int i=s.length()-1;i>=0;i--)
+			reve+=s.charAt(i);
+	}
+public static void main(String[] args) {
+	String str1="welcome";
+	String str2=new String("welcome");
+	System.out.println(str1==str2);
+	System.out.println(str1.equals(str2));
+	System.out.println(str1.concat("to Java"));
+	System.out.println(str1.charAt(6));//character at sixth index
+	System.out.println(str1.toUpperCase());
+	System.out.println(str1.length());
+	SrtDemo.rev("hlkhjl");
+}
+}

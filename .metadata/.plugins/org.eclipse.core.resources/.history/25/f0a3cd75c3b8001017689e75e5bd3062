@@ -1,0 +1,6 @@
+package inheritenc;
+
+public class Customer extends Theater3{
+Customer c=new Customer();
+c.malik
+}

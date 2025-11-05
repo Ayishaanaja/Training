@@ -1,0 +1,8 @@
+package com.ust.frs.bean;
+
+public class FlightBean {
+    private String flightID;
+    private String flightName;
+    private int seatingCapacity;
+    private int reservationCapacity;
+}

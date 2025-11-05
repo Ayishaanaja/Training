@@ -1,0 +1,15 @@
+package inheritenc;
+
+public class Tiger extends Animal 
+{
+void run()
+{
+	System.err.println("runs fast");
+}
+public static void main(String[] args) {
+	Tiger t=new Tiger();
+	t.run();
+	t.eat();
+	System.out.println("Tiger has "+t.legs+" legs");
+}
+}

@@ -1,0 +1,9 @@
+package Collections;
+
+public class emp {
+
+private int empid;
+private String empname;
+private empsal;
+
+}

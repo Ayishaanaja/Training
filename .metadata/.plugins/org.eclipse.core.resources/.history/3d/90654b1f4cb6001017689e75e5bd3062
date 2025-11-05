@@ -1,0 +1,45 @@
+package outer;
+
+public class Store {
+	String product[]=new String[10];
+	int pos=0;
+	void add(String prodname)
+	{
+		if(pos<10) {
+			this.product[pos]=prodname;
+			this.pos+=1;
+		}
+		else
+			System.out.println("array full");
+		System.out.println("\nUpdated array is:");
+		for(int i=0;i<pos;i++)
+			System.out.println(product[i]);
+	}
+	void delete(String prodname)
+	{
+		int i,temp;
+		for(i=0;i<=pos;i++)
+		{
+			if (prodname==product[i])
+				{
+				temp=i;
+				}
+		}
+		System.out.println(temp);
+		this.pos-=1;
+		System.out.println("\nUpdated array is:");
+		for(int j=0;j<=pos;j++)
+			System.out.println(product[j]);
+	}
+	void rename(String prodname)
+	{
+		
+	}
+public static void main(String[] args) {
+	Store st=new Store();
+	st.add("pen");
+	st.add("pencil");
+	st.delete("pen");
+}
+}
+

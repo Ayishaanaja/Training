@@ -1,0 +1,9 @@
+package inheritenc;
+
+public class Customer extends Theater3{
+	public static void main(String[] args) {
+		Customer c=new Customer();
+		c.malik();
+		c.dude();
+	}
+}

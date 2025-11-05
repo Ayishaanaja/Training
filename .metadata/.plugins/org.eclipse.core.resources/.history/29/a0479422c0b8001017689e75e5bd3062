@@ -1,0 +1,11 @@
+package inheritenc;
+
+public class ICICIBank implements Loan {
+
+	@Override
+	public void interestRate(int amount) {
+		int rate= amount*0.1;
+		
+	}
+
+}

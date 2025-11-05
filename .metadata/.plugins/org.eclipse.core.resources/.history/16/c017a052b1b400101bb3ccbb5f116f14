@@ -1,0 +1,15 @@
+package com.example;
+
+import javax.swing.JOptionPane;
+
+public class user {
+	public static void main(String[] args) {
+		//Dog d1=new Dog();
+		//d1.eat();
+		//Dog.main(null);
+		JOptionPane.showInputDialog("Enter your name");
+		JOptionPane.showMessageDialog(null, "Hai"+name+"Welcome to UST");
+		
+	}
+
+}

@@ -1,0 +1,42 @@
+package outer;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Product {
+	Scanner sc=new Scanner(System.in);
+	int prdno;
+	String prdname;
+	int prdprice;
+	Product prd[] = new Product[5];
+	
+	void addProducts()
+	{
+		for(int i=0;i<prd.length;i++)
+		{
+			prd[i]=new Product();
+			System.out.println("Enter product no");
+			prdno=sc.nextInt();
+			System.out.println("Enter product name");
+			prdname=sc.next();
+			System.out.println("Enter product Price");
+			prdprice=sc.nextInt();
+		}
+	}
+	
+	void displayProduct()
+	{
+		for(int i=0;i<prd.length;i++)
+		{
+			System.out.println(prd[i].prdname+" "+prd[i].prdprice);
+		}
+	}
+
+	@Override
+	public String toString() {
+		return "Product [sc=" + sc + ", prdno=" + prdno + ", prdname=" + prdname + ", prdprice=" + prdprice + ", prd="
+				+ Arrays.toString(prd) + "]";
+	}
+	
+}
+

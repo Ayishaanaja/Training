@@ -1,0 +1,17 @@
+package pack;
+
+public class constr {
+constr()
+{
+	System.out.println("constructor method");
+}
+void eat()
+{
+	System.out.println("eats rat");
+}
+public static void main(String[] args) {
+//	constr c=new constr();
+//	c.eat();
+	new constr().eat();
+}
+}

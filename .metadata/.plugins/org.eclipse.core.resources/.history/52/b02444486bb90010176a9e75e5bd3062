@@ -1,0 +1,18 @@
+package inheritence;
+class app
+{
+	void version
+	{
+		System.out.println("App version 8");
+	}
+}
+class newapp extends version
+{
+	void version
+	{
+		System.out.println("App version 8");
+	}
+}
+public class overriding {
+
+}

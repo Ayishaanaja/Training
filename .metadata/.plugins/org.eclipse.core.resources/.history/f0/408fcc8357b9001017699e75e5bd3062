@@ -1,0 +1,10 @@
+package com.ust.frs.bean;
+
+public class ScheduleBean {
+	 private String scheduleID;
+    private String flightID;
+    private String routeID;
+    private int travelDuration;
+    private String availableDays;
+    private String departureTime;
+}

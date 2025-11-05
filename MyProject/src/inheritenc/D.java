@@ -1,0 +1,26 @@
+package inheritenc;
+class Aa{
+	Aa(){
+		System.out.println("default class A");
+	}
+}
+class Bb extends Aa{
+	Bb(){
+		System.out.println("default class B");
+	}
+}
+class C extends Bb{
+	C(){
+		System.out.println("default class C");
+	}
+}
+public class D extends C{
+	D(){
+		System.out.println("default class D");
+	}
+	public static void main(String[] args) {
+//		new D();
+//		C d=(C)new D(); 
+		C c=new D();
+	}
+}

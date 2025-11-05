@@ -1,0 +1,5 @@
+package inheritenc;
+
+public class Student2 extends Student1 implements Grade {
+
+}

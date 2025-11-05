@@ -1,0 +1,14 @@
+package pack.subpack;
+
+import outer.Demo;
+import pack.Calc;
+
+public class A extends Calc{
+	public static void main(String[] args) {
+		Calc.add(33,11);
+		A a=new A();
+		a.pinne();
+	}
+	
+
+}

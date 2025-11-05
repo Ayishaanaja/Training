@@ -1,0 +1,23 @@
+package pack;
+
+public class Vowels {
+public static void main(String[] args) {
+	String str="welcome";
+	String vowels="aeiou";
+	int count=0;
+	for(int i=0;i<str.length();i++)
+	{
+		count=0;
+		char s=str.charAt(i);
+		for(int k=0;k<vowels.length();k++)
+		{
+			if(s==vowels.charAt(k))
+			{
+				count++;
+					System.out.println(""+s+" : "+count);
+			}
+		}
+		
+	}
+}
+}

@@ -1,0 +1,37 @@
+package com.example;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class first {
+	/*void check(int a)
+	{
+		if (a%2==0)
+			System.out.println("even");
+		else
+			System.out.println("odd");
+	}*/
+	void checkoddoreven(int b)
+	{
+		if(b%2==0)
+			JOptionPane.showMessageDialog(null, "the given number "+b+ " is even");
+		else
+			JOptionPane.showMessageDialog(null, "the given number "+b+ " is odd");
+	}
+	public static void main(String[] args) {
+		int a=Integer.parseInt(JOptionPane.showInputDialog("enter the number to check if odd or even"));
+		first obj=new first();
+		obj.checkoddoreven(a);
+		//obj.check(87);
+		/*System.out.println("enter number");
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		if (a%2==0)
+			System.out.println("even");
+		else
+			System.out.println("odd");*/
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package inheritenc;
+
+public class Student1 implements Grade{
+//the interface methods must be overwritten
+	@Override
+	public void maths() {
+		System.out.println("passed in maths");
+	}
+
+	@Override
+	public void eng() {
+		System.out.println("passed in eng");	
+	}
+	public static void main(String[] args) {
+		Student1 s=new Student1();
+		s.maths();
+		s.eng();
+		System.out.println("total marks = "+Grade.total);//this access the variable value in the interface
+	//the final value of total cannot be changed,it shows error.....the interface acts as a template
+	}
+
+}

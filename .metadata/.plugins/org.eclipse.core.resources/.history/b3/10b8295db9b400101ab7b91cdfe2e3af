@@ -1,0 +1,18 @@
+package com.example;
+
+import java.util.Scanner;
+
+public class first {
+	public static void main(String[] args) {
+		System.out.println("enter number");
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		/*if (a%2==0)
+			System.out.println("even");
+		else
+			System.out.println("odd");*/
+		boolean check=a%2==0?true:false;
+		System.out.println(check);
+	}
+
+}

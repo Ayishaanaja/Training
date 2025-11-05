@@ -1,0 +1,6 @@
+package inheritenc;
+
+public class Customer1 extends ICICIBank{
+	Customer1 cs1=new Customer1();
+	cs1.interestRate(200000);
+}

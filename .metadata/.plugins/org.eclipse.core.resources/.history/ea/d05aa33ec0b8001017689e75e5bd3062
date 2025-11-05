@@ -1,0 +1,11 @@
+package inheritenc;
+
+public class SBIBank implements Loan{
+
+	@Override
+	public void interestRate(int amount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

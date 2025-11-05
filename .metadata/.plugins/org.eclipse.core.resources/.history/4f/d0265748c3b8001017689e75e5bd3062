@@ -1,0 +1,5 @@
+package inheritenc;
+
+public class Theater3 implements MalayalamMovies,TamilMovies{
+
+}

@@ -1,0 +1,16 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class StudentDetails 
+{
+	ArrayList<Collegedb> st;
+	public ArrayList<Collegedb> AddDetails() 
+	{
+		st=new ArrayList<Collegedb>();
+		st.add(4100,"Ayisha","CS");
+		st.add(4101,"Aishwarya","EC");
+		st.add(4102,"Sree","ME");
+		return st;
+	}
+}

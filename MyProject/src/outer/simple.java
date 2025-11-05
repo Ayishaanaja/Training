@@ -1,0 +1,17 @@
+package outer;
+
+public class simple {
+	void abc()
+	{
+		System.out.println("hello");
+	}
+	int abc(int x)
+	{
+		System.out.println("ihiiii");
+		return 0;
+	}
+	public static void main(String[] args) {
+		simple s=new simple();
+		s.abc();
+	}
+}

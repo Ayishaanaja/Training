@@ -1,0 +1,9 @@
+package com.ust.frs.bean;
+
+public class PassengerBean {
+	private String reservationID;
+    private String name;
+    private String gender;
+    private int age;
+    private int seatNo;
+}

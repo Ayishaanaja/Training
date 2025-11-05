@@ -1,0 +1,35 @@
+//pattern is: 
+//       1 
+//      1 2 
+//     1 2 3 
+//    1 2 3 4 
+//   1 2 3 4 5 
+//  1 2 3 4 5 6 
+// 1 2 3 4 5 6 7 
+package pack;
+
+import java.util.Scanner;
+
+public class pattern {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter length : ");
+	int num=sc.nextInt();
+	System.out.println("pattern is: ");
+	for(int i=0;i<num;i++)
+	{
+		int a=1;
+		for(int j=0;j<(num-i);j++)
+		{
+			System.out.print(" ");
+			
+		}
+		for(int k=0;k<i+1;k++)
+		{
+			System.out.print(a+" ");
+			a++;
+		}
+		System.out.println();
+	}
+}
+}

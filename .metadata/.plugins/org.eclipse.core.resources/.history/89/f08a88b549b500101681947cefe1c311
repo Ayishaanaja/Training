@@ -1,0 +1,6 @@
+package pack.subpack;
+
+public class A {
+	Calc.add(22,33);
+
+}

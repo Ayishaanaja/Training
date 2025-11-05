@@ -1,0 +1,32 @@
+//this keyword changes the instance value of amount thus we can change the amount in the bank using withdraw and deposit
+package outer;
+public class Bank {
+int amount=2000;
+void balance()
+{
+	System.out.println("Account balance is"+amount);
+}
+void withdraw(int amount)
+{
+	if(amount>this.amount) {
+		System.out.println("Insufficient Balance");
+		return;
+	}
+	else	
+		this.amount-=amount;
+	System.out.println("\nAmount debitted successfully!");
+}
+void deposit(int amount)
+{
+	this.amount+=amount;
+	System.out.println("\nAmount creditted successfully!");
+}
+public static void main(String[] args) {
+	Bank b1=new Bank();
+	b1.balance();
+	b1.withdraw(500);
+	b1.balance();
+	b1.deposit(10000);
+	b1.balance();
+}
+}

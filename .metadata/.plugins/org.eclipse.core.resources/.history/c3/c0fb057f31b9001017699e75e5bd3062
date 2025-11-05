@@ -1,0 +1,7 @@
+package inheritenc;
+
+public class Customerfood {
+public static void main(String[] args) {
+	System.out.println("Enter the required /n 1.Customer /t 2.Veg food /t 3.Non veg /t 4.hotel");
+}
+}

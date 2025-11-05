@@ -1,0 +1,9 @@
+package pack;
+
+public class SrtDemo {
+public static void main(String[] args) {
+	String str1="welcome";
+	String str2=new String("welcome");
+	System.out.println(str1==str2);
+}
+}

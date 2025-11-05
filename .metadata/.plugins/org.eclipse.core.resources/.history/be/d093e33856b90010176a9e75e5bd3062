@@ -1,0 +1,10 @@
+package com.ust.frs.service;
+
+import com.ust.frs.bean.FlightBean;
+
+public interface Administrator {
+	public String addFlight(FlightBean flightBean);
+	public boolean modifyFlight(FlightBean flightBean);
+	public int removeFlight(ArrayList<String> flightID);
+	public String addSchedule(ScheduleBean scheduleBean);
+}

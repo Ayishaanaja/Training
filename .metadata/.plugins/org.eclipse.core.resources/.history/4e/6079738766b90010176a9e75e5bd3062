@@ -1,0 +1,9 @@
+package inheritence;
+
+public class Sub {
+public static void main(String[] args) {
+	Sub a=new Sub();
+	int sum=a.a-a.b;;
+	System.out.println("Substraction of the two numbers "+a.a+" and "+a.b+ " equals "+diff);
+}
+}

@@ -1,0 +1,7 @@
+package pack;
+
+public class Verthe {
+public static void main(String[] args) {
+	String a="hi";
+}
+}

@@ -1,0 +1,19 @@
+package pack;
+
+import java.util.Scanner;
+
+public class DectoBin {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter number : ");
+	int dec=sc.nextInt();
+	String bin="";
+	while (dec>0)
+	{
+		int rem=dec%10;
+		bin = rem+bin;
+		dec=dec/2;
+	}
+	System.out.println("binary of the given number is : "+bin);
+}
+}

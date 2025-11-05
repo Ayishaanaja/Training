@@ -1,0 +1,9 @@
+package inheritenc;
+
+import java.util.Scanner;
+
+public class Customerfood extends Hotel{
+public static void main(String[] args) {
+	Vegfood vg=new Customerfood();
+}
+}

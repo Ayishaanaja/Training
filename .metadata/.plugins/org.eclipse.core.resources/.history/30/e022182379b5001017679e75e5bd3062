@@ -1,0 +1,21 @@
+package pack;
+
+public class Repeat {
+public static void main(String[] args) {
+	String str="welcome";
+	String num="";
+	int flag=0;
+	for(int i=0;i<str.length();i++)
+	{
+		for(int k=i;k<str.length();k++)
+		{
+			if(str.charAt(i)==str.charAt(k))
+			{
+				flag+=1;
+				if (k==(str.length()))
+			}
+		}
+	}
+	
+}
+}

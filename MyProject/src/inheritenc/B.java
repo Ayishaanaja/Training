@@ -1,0 +1,29 @@
+package inheritenc;
+
+import outer.Main;
+
+class A{
+//	A(){
+//		System.out.println("Class A constructor default");
+//	}
+	A(int x)
+	{
+		System.out.println("A class The value of x is "+x);
+	}
+	
+}
+public class B extends A{
+B(){
+	super(5);
+	System.out.println("Class B constructor");
+}
+B(int x)
+{
+	super(x);
+	System.out.println("B class The value of x is "+x);
+}
+	public static void main(String[] args)
+	{
+	new B(22);	
+	}
+}

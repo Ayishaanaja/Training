@@ -1,0 +1,6 @@
+package pack;
+
+public class User {
+	Calc.add(22,44);
+
+}

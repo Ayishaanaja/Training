@@ -1,0 +1,13 @@
+package inheritenc;
+
+public class Student2 extends Student1 implements Grade {
+	public void maths(){
+		System.err.println("failed in maths");
+	}
+	public static void main(String[] args) {
+		Student2 s2=new Student2();
+		s2.maths();
+		s2.eng();
+	}
+
+}

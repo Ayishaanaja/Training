@@ -1,0 +1,27 @@
+package outer;
+
+public class Store {
+	String product[]=new String[10];
+	int pos=0;
+	void add(String prodname)
+	{
+		for(int i=0;i<10;i++)
+		{
+			this.product[pos]=prodname;
+			this.pos+=1;
+		}
+	}
+	void delete(String prodname)
+	{
+		
+	}
+	void rename(String prodname)
+	{
+		
+	}
+public static void main(String[] args) {
+	Store st=new Store();
+	st.add("pen");
+}
+}
+

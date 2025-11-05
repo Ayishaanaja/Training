@@ -1,0 +1,8 @@
+package pack.subpack;
+
+import pack.Calc;
+
+public class A {
+	Calc.add(22,90);
+
+}

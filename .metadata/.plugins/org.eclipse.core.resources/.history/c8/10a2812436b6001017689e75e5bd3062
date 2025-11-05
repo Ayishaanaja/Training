@@ -1,0 +1,12 @@
+package pack;
+
+public class constr {
+constr()
+{
+	System.out.println("constructor method");
+}
+public static void main(String[] args) {
+	constr c=new constr();
+	
+}
+}

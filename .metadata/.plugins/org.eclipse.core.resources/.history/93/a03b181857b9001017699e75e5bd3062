@@ -1,0 +1,8 @@
+package com.ust.frs.bean;
+
+public class CredentialsBean {
+	 private String userID;
+	 private String password;
+	 private String userType;
+	 private int loginStatus;
+}

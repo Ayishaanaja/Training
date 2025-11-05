@@ -1,0 +1,11 @@
+package pack;
+
+public class stat {
+	static
+	{
+		System.out.println("welcome to");
+	}
+public static void main(String[] args) {
+	System.out.println("java");
+}
+}

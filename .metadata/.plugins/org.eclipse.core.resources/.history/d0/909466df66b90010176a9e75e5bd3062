@@ -1,0 +1,6 @@
+package inheritence;
+
+public class Numbers {
+int a=200;
+int b=175;
+}

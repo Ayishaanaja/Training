@@ -1,0 +1,10 @@
+package com.ust.frs.util;
+
+import java.util.ArrayList;
+
+import com.ust.frs.bean.FlightBean;
+
+public class java {
+ArrayList<FlightBean> Flightdetails =new ArrayList<FlightBean>();
+
+}

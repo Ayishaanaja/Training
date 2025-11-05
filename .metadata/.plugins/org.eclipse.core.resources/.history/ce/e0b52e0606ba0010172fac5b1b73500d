@@ -1,0 +1,8 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class Arrl {
+ArrayList al=new ArrayList();
+
+}
